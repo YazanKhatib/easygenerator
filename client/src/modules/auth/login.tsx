@@ -38,7 +38,7 @@ export const Login: React.FC<{ setIsLoggedIn: (x: boolean) => void }> = ({ setIs
   return (
     <div className="flex h-full items-center flex-col justify-center">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-        {/* <img className="mx-auto h-20 w-auto" src="/easygenerator-logo.jpg" alt="Your Company" /> */}
+        <img className="mx-auto h-20 w-auto" src="/easygenerator-logo.jpg" alt="Your Company" />
         <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
           Sign in to your account
         </h2>
